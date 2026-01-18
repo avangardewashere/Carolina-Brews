@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolina Brews | Artisan Coffee Roasters</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fcarolinab2138back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="antialiased overflow-x-hidden min-h-screen flex flex-col selection:bg-latte selection:text-espresso text-crema-light">
+
+    <!-- Navigation -->
+    <nav class="w-full fixed top-0 z-50 pt-6 px-8">
+        <div class="glass-card flex max-w-7xl rounded-full mr-auto ml-auto pt-4 pr-6 pb-4 pl-6 items-center justify-between transition-all duration-300">
+            <div class="flex items-center gap-2">
+                <div class="bg-caramel p-1.5 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-espresso">
+                        <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                        <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                        <line x1="6" x2="6" y1="2" y2="4"></line>
+                        <line x1="10" x2="10" y1="2" y2="4"></line>
+                        <line x1="14" x2="14" y1="2" y2="4"></line>
+                    </svg>
+                </div>
+                <span class="font-medium text-lg tracking-tight text-crema">Carolina Brews</span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-crema-dark">
+                <a href="#coffee" class="transition-colors hover:text-caramel">Our Coffee</a>
+                <a href="#story" class="transition-colors hover:text-caramel">Our Story</a>
+                <a href="#visit" class="transition-colors hover:text-caramel">Visit Us</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#visit" class="text-sm font-medium transition-colors hidden sm:block hover:text-caramel">Locations</a>
+                <button class="bg-caramel px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2 text-espresso hover:bg-latte hover:shadow-glow-caramel group">
+                    Order Online
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <main class="flex-grow flex sm:px-12 pt-40 pr-6 pb-20 pl-6 relative items-center justify-center border-b border-cocoa/20">
+        <!-- Background decorative elements -->
+        <div class="absolute inset-0 pointer-events-none z-0 flex justify-between px-6 md:px-12 max-w-7xl mx-auto">
+            <div class="w-px h-full bg-cocoa/10 hidden md:block"></div>
+            <div class="w-px h-full bg-cocoa/10 hidden lg:block"></div>
+            <div class="w-px h-full bg-cocoa/10 hidden md:block"></div>
+        </div>
+
+        <div class="max-w-7xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative z-10">
+            <!-- Left Column: Copy & Value Proposition -->
+            <div class="lg:col-span-5 flex flex-col gap-8 relative z-10">
+                <div class="inline-flex items-center gap-2 self-start glass-card px-3 py-1.5 rounded-full border border-cocoa/20">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-caramel opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-caramel"></span>
+                    </span>
+                    <span class="text-xs font-medium text-caramel tracking-wide uppercase">Fresh Roasted Daily</span>
+                </div>
+
+                <h1 class="text-6xl sm:text-7xl lg:text-8xl font-serif font-light leading-[0.9] tracking-tight text-crema">
+                    Crafted for<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-caramel to-latte italic">Carolina.</span>
+                </h1>
+
+                <p class="text-xl font-light leading-relaxed max-w-lg text-crema-dark">
+                    Small-batch coffee roasted with care in the heart of the Carolinas. Every cup tells a story of craft, community, and the pursuit of the perfect brew.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 mt-2">
+                    <button class="hover:shadow-glow-caramel hover:-translate-y-0.5 transition-all duration-300 flex gap-2 text-base font-medium text-espresso bg-gradient-to-r from-caramel to-latte h-14 rounded-2xl px-8 shadow-lg items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                            <path d="M3 6h18"></path>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        Shop Beans
+                    </button>
+                    <button class="hover:border-caramel transition-all duration-300 flex gap-2 group hover:bg-mocha/50 text-base font-medium text-crema h-14 border-cocoa/30 border rounded-2xl px-8 items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 group-hover:text-caramel transition-colors">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Find Locations
+                    </button>
+                </div>
+
+                <div class="pt-6 border-t flex items-center gap-6 mt-4 border-cocoa/20">
+                    <div class="flex -space-x-3">
+                        <img class="w-10 h-10 rounded-full border-2 border-espresso" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814" alt="Happy customer enjoying Carolina Brews coffee">
+                        <img class="w-10 h-10 rounded-full border-2 border-espresso" src="https://images.unsplash.com/photo-1511114683397-c65039342b79" alt="Local coffee enthusiast at Carolina Brews">
+                        <img class="w-10 h-10 rounded-full border-2 border-espresso" src="https://img.rocket.new/generatedImages/rocket_gen_img_130321216-1768704629784.png" alt="Regular customer at Carolina Brews cafe">
+                        <div class="w-10 h-10 rounded-full border-2 border-espresso flex items-center justify-center text-xs font-medium bg-mocha text-crema">
+                            +500
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1 text-caramel">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                        </div>
+                        <p class="text-sm text-crema-dark mt-0.5">Loved by the Carolinas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Hero Image -->
+            <div class="lg:col-span-7 relative h-[60vh] lg:h-[85vh] w-full hidden lg:block">
+                <!-- Rotating Badge -->
+                <div class="absolute top-24 right-6 md:right-12 z-20 pointer-events-none hidden md:block">
+                    <div class="relative w-24 h-24 flex items-center justify-center">
+                        <svg class="animate-spin-slow w-full h-full" viewBox="0 0 100 100">
+                            <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent"></path>
+                            <text font-size="11" font-family="Inter" font-weight="500" letter-spacing="2px" fill="#C08A5A">
+                                <textPath href="#circlePath" startOffset="0%">
+                                    ROASTED DAILY • FRESH BEANS •
+                                </textPath>
+                            </text>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="absolute text-caramel">
+                            <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                            <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                            <line x1="6" x2="6" y1="2" y2="4"></line>
+                            <line x1="10" x2="10" y1="2" y2="4"></line>
+                            <line x1="14" x2="14" y1="2" y2="4"></line>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="absolute inset-0 rounded-t-[12rem] rounded-b-lg overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1677275954653-599087d77e7c" alt="Freshly roasted coffee beans and artisan espresso at Carolina Brews" class="w-full h-full object-cover object-center brightness-90 hover:scale-105 transition-transform duration-[2s]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-espresso/60 via-transparent to-transparent"></div>
+
+                    <!-- Floating Card -->
+                    <div class="absolute bottom-8 right-8 glass-card p-4 rounded-xl text-crema max-w-[200px] hidden md:block">
+                        <div class="flex items-center gap-2 mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-caramel">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span class="text-xs font-medium">Open Now</span>
+                        </div>
+                        <p class="text-[10px] leading-relaxed opacity-80">
+                            Fresh brews ready. Visit us today for your perfect cup.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Coffee Showcase Section -->
+    <section id="coffee" class="py-24 px-6 sm:px-12 relative border-b border-cocoa/20">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div>
+                    <span class="text-caramel font-medium tracking-wide text-sm mb-2 block uppercase">Our Selection</span>
+                    <h2 class="text-3xl md:text-4xl font-serif font-medium text-crema tracking-tight">
+                        Signature Roasts
+                    </h2>
+                </div>
+                <a href="#" class="text-sm text-crema-dark hover:text-caramel transition-colors flex items-center gap-2 group">
+                    View full menu
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[400px]">
+                <!-- Card 1 (Wide) -->
+                <div class="md:col-span-2 relative rounded-3xl overflow-hidden group cursor-pointer glass-card border-0 p-0">
+                    <img src="https://images.unsplash.com/photo-1468437105702-ad2fec46f75a" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Carolina Brews signature espresso blend with rich crema">
+                    <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 w-full">
+                        <div class="flex justify-between items-end">
+                            <div>
+                                <h3 class="text-2xl font-serif font-medium text-crema mb-2">Carolina Classic</h3>
+                                <p class="text-crema-dark text-sm font-light line-clamp-2 max-w-md">
+                                    Our signature medium roast. Smooth, balanced, with notes of chocolate and caramel. Perfect for any time of day.
+                                </p>
+                            </div>
+                            <div class="glass-card px-4 py-2 rounded-full text-sm font-medium text-crema backdrop-blur-md">
+                                $16 / 12oz
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="relative rounded-3xl overflow-hidden group cursor-pointer glass-card border-0 p-0">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_184000060-1767482072538.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Dark roast coffee beans for Carolina Brews bold espresso">
+                    <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 w-full">
+                        <h3 class="text-xl font-serif font-medium text-crema mb-1">Bold Espresso</h3>
+                        <p class="text-crema-dark text-xs uppercase tracking-wider">Dark Roast</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="relative rounded-3xl overflow-hidden group cursor-pointer glass-card border-0 p-0">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1dfca877d-1768704631052.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Light roast single origin coffee from Carolina Brews">
+                    <div class="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 w-full">
+                        <h3 class="text-xl font-serif font-medium text-crema mb-1">Morning Light</h3>
+                        <p class="text-crema-dark text-xs uppercase tracking-wider">Single Origin</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 (Feature Text) -->
+                <div class="md:col-span-2 relative rounded-3xl overflow-hidden glass-card p-10 flex flex-col justify-center items-start group hover:bg-mocha/30 transition-colors">
+                    <div class="w-12 h-12 bg-caramel/20 rounded-full flex items-center justify-center mb-6 text-caramel">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20"></path>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-serif font-medium text-crema mb-4">Small-Batch Roasting</h3>
+                    <p class="text-crema-dark text-base font-light leading-relaxed max-w-xl">
+                        Every batch is roasted by hand in our Charlotte facility. We source directly from sustainable farms and roast to order, ensuring you receive the freshest coffee possible.
+                    </p>
+                    <a href="#story" class="mt-8 text-caramel font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all">
+                        Learn about our process
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="py-32 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="aspect-[3/4] rounded-full overflow-hidden w-2/3 mx-auto md:mr-auto relative z-10 border border-cocoa/20">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_12e51c470-1768704630826.png" class="w-full h-full object-cover" alt="Coffee roasting process at Carolina Brews artisan facility">
+                </div>
+                <!-- Graphic Line -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] border border-cocoa/20 rounded-full z-0 -rotate-12"></div>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-cocoa/30 mb-8">
+                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                </svg>
+                <h2 class="text-4xl md:text-5xl font-serif text-crema mb-8 tracking-tight leading-[1.1]">
+                    Rooted in<br>
+                    <span class="italic text-caramel">Carolina Culture.</span>
+                </h2>
+                <div class="space-y-6 text-crema-dark font-light text-base leading-relaxed pl-8 border-l border-caramel">
+                    <p>
+                        Carolina Brews started in 2018 with a simple mission: bring world-class coffee to the Carolinas while honoring our local roots.
+                    </p>
+                    <p>
+                        We source our beans directly from sustainable farms across Central and South America, then roast them by hand in small batches right here in Charlotte. Every bag tells a story of craft, care, and community.
+                    </p>
+                </div>
+                <div class="mt-12 pl-8">
+                    <a href="#visit" class="inline-flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-caramel hover:gap-5 transition-all">
+                        Visit Our Roastery
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us / CTA Section -->
+    <section id="visit" class="py-32 px-6 sm:px-12 relative overflow-hidden border-t border-cocoa/20">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-caramel/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-2xl mx-auto text-center relative z-10">
+            <h2 class="text-5xl font-serif font-medium tracking-tight text-crema mb-6">
+                Stop by today.
+            </h2>
+            <p class="text-crema-dark font-light text-lg mb-10 leading-relaxed">
+                Experience Carolina Brews in person. Fresh coffee, warm atmosphere, and a community that feels like home.
+            </p>
+
+            <div class="glass-card p-8 rounded-3xl mb-8 text-left">
+                <div class="flex items-start gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-caramel/20 flex items-center justify-center flex-shrink-0 text-caramel">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-medium text-crema mb-2">Charlotte Location</h3>
+                        <p class="text-crema-dark text-sm font-light leading-relaxed mb-3">
+                            423 Trade Street<br>
+                            Charlotte, NC 28202
+                        </p>
+                        <div class="text-sm text-crema-dark">
+                            <p class="mb-1"><span class="font-medium text-crema">Mon-Fri:</span> 6:30 AM - 6:00 PM</p>
+                            <p class="mb-1"><span class="font-medium text-crema">Sat-Sun:</span> 7:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="w-full bg-gradient-to-r from-caramel to-latte text-espresso font-medium rounded-xl px-8 py-3 hover:shadow-glow-caramel transition-all duration-300">
+                    Get Directions
+                </button>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                <button class="h-14 bg-caramel text-espresso font-medium rounded-xl px-8 hover:bg-latte hover:shadow-glow-caramel transition-all duration-300">
+                    Order Online
+                </button>
+                <button class="h-14 border border-cocoa/30 text-crema font-medium rounded-xl px-8 hover:border-caramel hover:bg-mocha/30 transition-all duration-300">
+                    View Menu
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-cocoa/20 bg-dark-roast/50 pt-20 pb-10 px-6 sm:px-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-12 gap-12 mb-16">
+                <!-- Brand Column -->
+                <div class="col-span-2 md:col-span-4 flex flex-col items-start gap-6">
+                    <div class="flex items-center gap-2">
+                        <div class="bg-caramel/20 p-1.5 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-caramel">
+                                <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                                <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                                <line x1="6" x2="6" y1="2" y2="4"></line>
+                                <line x1="10" x2="10" y1="2" y2="4"></line>
+                                <line x1="14" x2="14" y1="2" y2="4"></line>
+                            </svg>
+                        </div>
+                        <span class="font-medium text-lg tracking-tight text-crema">Carolina Brews</span>
+                    </div>
+                    <p class="text-crema-dark text-sm font-light leading-relaxed max-w-xs">
+                        Artisan coffee roasted with care in the heart of the Carolinas. Crafted for the community.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-crema-dark hover:text-caramel transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-crema-dark hover:text-caramel transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-crema-dark hover:text-caramel transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links Column 1 -->
+                <div class="col-span-1 md:col-span-2 md:col-start-7">
+                    <h4 class="text-crema font-medium text-sm mb-6">Shop</h4>
+                    <ul class="space-y-4 text-sm text-crema-dark">
+                        <li><a href="#" class="hover:text-caramel transition-colors">Coffee Beans</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Merchandise</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Gift Cards</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Subscriptions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Links Column 2 -->
+                <div class="col-span-1 md:col-span-2">
+                    <h4 class="text-crema font-medium text-sm mb-6">Company</h4>
+                    <ul class="space-y-4 text-sm text-crema-dark">
+                        <li><a href="#story" class="hover:text-caramel transition-colors">Our Story</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Locations</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Wholesale</a></li>
+                    </ul>
+                </div>
+
+                <!-- Links Column 3 -->
+                <div class="col-span-2 md:col-span-2">
+                    <h4 class="text-crema font-medium text-sm mb-6">Support</h4>
+                    <ul class="space-y-4 text-sm text-crema-dark">
+                        <li><a href="#" class="hover:text-caramel transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-caramel transition-colors">Shipping</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-cocoa/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-crema-dark text-xs">
+                    © 2026 Carolina Brews. All rights reserved.
+                </p>
+
+                <div class="flex gap-6 text-xs text-crema-dark font-medium">
+                    <a href="#" class="hover:text-caramel transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-caramel transition-colors">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
+</body>
+</html>
